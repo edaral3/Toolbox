@@ -1,0 +1,20 @@
+version: "3"
+
+services:     
+    backend:
+        container_name: backend
+        restart: always
+        image: backend:latest
+        build: ./backend
+        command: npm start
+        ports:
+            - "8080:8080"
+    frontend:
+        container_name: frontend
+        restart: always
+        image: frontend:latest
+        build: ./frontend
+        command: npm start
+        ports:
+            - "3030:3030"
+

@@ -1,0 +1,6 @@
+FROM node:16
+WORKDIR /app
+COPY . .
+ENV PORT=3030
+EXPOSE 3030
+RUN npm install

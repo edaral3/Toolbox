@@ -1,0 +1,14 @@
+*{
+    font-size: 25px;
+}
+.row{
+    padding-top: 25px;
+    margin: auto;
+    width: 80%;
+    overflow-x: auto;
+}
+
+.label{
+    padding-left: 50%;
+    font-size: 40px;
+}
