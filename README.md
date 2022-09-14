@@ -8,11 +8,11 @@ Puerto: 8080
 Rutas
 - Devuelve los nombres de los archivos: http://localhost:8080/files/list
 - Devuelve todos los archivos en formato JSON: http://localhost:8080/files/data
-- Devuelve un archivo en formato JSON por su nombre: http://localhost:8080/files/data?fileName={nombre del archivo}
+- Devuelve un archivo en formato JSON por su nombre: http://localhost:8080/files/data?fileName={nombreDelArchivo}
 
 Comandos
-Tests: npm test
-Run: npm Run
+- Tests: npm test
+- Run: npm Run
 
 ### frontend
 
