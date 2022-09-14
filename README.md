@@ -6,9 +6,9 @@ Para la ejecuacion los puertos 8080 y 3030 deben de estar libres ya estos son lo
 Link
 Puerto: 8080
 Rutas
--Devuelve los nombres de los archivos: http://localhost:8080/files/list
--Devuelve todos los archivos en formato JSON: http://localhost:8080/files/data
--Devuelve un archivo en formato JSON por su nombre: http://localhost:8080/files/data?fileName={nombre del archivo}
+- Devuelve los nombres de los archivos: http://localhost:8080/files/list
+- Devuelve todos los archivos en formato JSON: http://localhost:8080/files/data
+- Devuelve un archivo en formato JSON por su nombre: http://localhost:8080/files/data?fileName={nombre del archivo}
 
 Comandos
 Tests: npm test
@@ -17,17 +17,17 @@ Run: npm Run
 ### frontend
 
 Instrucciones
--Cors: se debe de desabilitar los CORS del navegador para que esta pueda conetarse a la API.
--En el caso de los test la api debe de estar funcionando ya que los test realizan peticiones a la API de lo contrario estos fallaran.
+- Cors: se debe de desabilitar los CORS del navegador para que esta pueda conetarse a la API.
+- En el caso de los test la api debe de estar funcionando ya que los test realizan peticiones a la API de lo contrario estos fallaran.
 
 Link
--Puerto: 3030
--Ruta: http://localhost:3030/
+- Puerto: 3030
+- Ruta: http://localhost:3030/
 
 Comandos
--Tests: npm tes
--Built: npm build
--Run: npm Run
+- Tests: npm tes
+- Built: npm build
+- Run: npm Run
 
 
 
