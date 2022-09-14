@@ -26,7 +26,7 @@ Link
 
 Comandos
 - Tests: npm tes
-- Built: npm build
+- Built: npm run build
 - Run: npm start
 
 
