@@ -12,7 +12,7 @@ Rutas
 
 Comandos
 - Tests: npm test
-- Run: npm Run
+- Run: npm start
 
 ### frontend
 
@@ -27,7 +27,7 @@ Link
 Comandos
 - Tests: npm tes
 - Built: npm build
-- Run: npm Run
+- Run: npm start
 
 
 
